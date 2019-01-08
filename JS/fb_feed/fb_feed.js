@@ -4,7 +4,7 @@ $(document).ready(function(){
         facebook:{
             accounts: ['@ngkrobotics'],
             limit: 8,                                   //Integer: max number of posts to load
-            access_token: '233265033884309|d62b370922715c1a3c7191d7c5c1e0b6'
+            access_token: '###########|##############################'
         },
 
         // GENERAL SETTINGS
