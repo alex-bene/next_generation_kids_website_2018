@@ -1,0 +1,20 @@
+#prime_sponsors{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    overflow-x: auto;
+    flex-wrap: wrap;
+    padding: 0 1em 2em 1em;
+    margin: auto;
+    height: 100%;
+
+}
+#prime_sponsors a{
+    width: 5em;
+    margin: 1em;
+    flex: 0 0 auto;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 4em;
+}

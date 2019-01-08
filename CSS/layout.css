@@ -1,0 +1,59 @@
+.grid{
+    display: grid;
+}
+
+.column_span{
+    grid-column-start: 1;
+    grid-column-end: -1;
+}
+
+.flex_column{
+    display: flex;
+    flex-direction: column;
+}
+.flex_row{
+    display: flex;
+    flex-direction: row;
+}
+
+#headline_menu{
+    grid-area: headline_menu;
+}
+header{
+    grid-area: header;
+}
+
+#identity{
+    grid-area: identity;
+}
+#prime_sponsors{
+    grid-area: prime_sponsors;
+}
+#fb_feed{
+    grid-area: fb_feed;
+}
+
+#about_us{
+    grid-area: about_us;
+}
+
+#sponsors{
+    grid-area: sponsors;
+}
+
+footer{
+    grid-area: footer;
+}
+
+body{
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+        "headline_menu headline_menu"
+        "header header"
+        "identity identity"
+        "prime_sponsors prime_sponsors"
+        "fb_feed fb_feed"
+        "about_us about_us"
+        "sponsors sponsors"
+        "footer footer";
+}

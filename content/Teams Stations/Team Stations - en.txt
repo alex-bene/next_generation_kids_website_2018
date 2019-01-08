@@ -1,0 +1,39 @@
+﻿Title : Winning the 2nd  place in Technical Innovation and Communications Award
+Content : Our expectations for this year remained high and we were not disproved. Focusing on the safety and the technical improvement of Pyrforos II, we managed to elicit positive comments from the judges and manage to take 2nd place in both awards. Specifically, our team made a holistic approach regarding the safety of both the driver and the vehicle. Therefore, lidar sensors were placed in the tail of the vehicle and also the chassis was reconstructed. Furthermore, concerning technical innovation, we implemented an Adaptive Cruise Control by using a neural network,  aiming to conserve energy with optimal driving behavior.
+Year : 2017
+Icon : award
+
+Title : Winning the 1st place in Off-Track Awards “Technical Innovation Award” and “ Communications Award”
+Content : After having problems with funding, Team Prometheus devised a financial campaign ,in order to raise funds for the projects to come. Through the “Indiegogo” platform, our project was supported internationally. This innovation in addition to other promotional actions, led to Communications Award. Having not fulfilled our ambitions, our team developed a semi-autonomous intelligent Eco Cruise Control system, which clenched the award for our team.
+Year : 2016
+Icon : award
+
+Title : Winning the 10th place amongst 50 competitors in Rotterdam, Holland
+Content : In the competition that took place in Holland, our team succeeded to end the race, holding the 10th place, an achievement that no other Greek team had accomplished at the time. Our vehicle could do 487km/Kwh, which means it can cover the distance from Athens to Paris in only 0.6€. Moreover, we took the second place in the “Safety Award” to conclude our successful course.
+Year : 2015
+Icon : award
+
+Title : Fabrication of our present prototype electric vehicle “Pyrforos II”
+Content : After 5 continuous year of participation in SEM ,  the experienced members of Prometheus Team started manufacturing the new shell of the vehicle ,in the distinctive shape  of a raindrop and color red. Apart from the shell , all the sub-systems of the car were reappraised , redesigned and manufactured ,resulting in the vastly recognizable prototype , called “Pyrforos II”.
+Year : 2014
+Icon : construction
+
+Title : Our first Off-Track Award on SEM – “Team Spirit”
+Content : Throughout the course of SEM 2013 in London, our team demonstrated in front of our Paddock, a drain of the Greek hospitality, by offering Greek products to the competitors and the spectators. Unprecedented event in the SEM world, the price was awarded to its legitimate heir: Team Prometheus.
+Year : 2013
+Icon : award
+
+Title : Change of course regarding the vehicle’s propulsion system
+Content : The year of the radical change, Prometheus Team decided to switch to the “Prototype Battery Electric” category in SEM, a category that seemed promising and the one that our team is thriving until these days.
+Year : 2011
+Icon : change
+
+Title : Fabrication of the hydrogen powered vehicle “Pyrforos I” and 1st participation in Shell Eco Marathon
+Content : The vehicle in our very first endeavor, is powered by hydrogen cell and competing in the appropriate category.
+Year : 2009
+Icon : construction
+
+Title : Establishment of Prometheus Team
+Content : The team was founded by the collaboration of undergraduate students and doctoral students, under the aid of the Electrical Machines and Power Electronics laboratory.
+Year : 2008
+Icon : foundation

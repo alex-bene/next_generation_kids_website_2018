@@ -1,0 +1,58 @@
+#graphs{
+	margin: 0 1em;
+}
+#plot{
+	width: 100%;
+}
+#tank{
+	margin-top: 2em;
+	border: 1px solid black;
+	width: 100%;
+	height: 200px;
+	position: relative;
+}
+#water{
+	position: absolute;
+	width: 100%;
+	background-color: aqua;
+	bottom: 0;
+	right: 0;
+}
+#full_text{
+	position: absolute;
+	top: 0;
+	right: 0;
+	left: 0;
+	text-align: center;
+}
+#empty_text{
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	text-align: center;
+}
+
+@media only screen and (min-width: 1000px) {
+	#graphs{
+		position: relative;
+	}
+	#plot{
+		width: 80%;
+		float: left;
+	}
+	#tank{
+		margin-top: 0;
+		position: absolute;
+		bottom: 0;
+		right: 0;
+		width: 15%;
+		height: 100%;
+	}
+	#water{
+		position: absolute;
+		width: 100%;
+		bottom: 0;
+		right: 0;
+	}
+}

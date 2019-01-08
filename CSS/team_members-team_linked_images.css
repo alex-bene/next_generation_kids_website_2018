@@ -1,0 +1,69 @@
+.linked_images_area{
+    justify-content: center;
+    justify-items: center;
+}
+
+.team_members{
+    margin: 0 1em;
+}
+.team_members .linked_images_area{
+    margin-top: 2em;
+}
+.team_members .members{
+    display: block;
+    border-radius: 0.5em;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.member_container {
+    border-radius: 0.5em;
+    cursor: pointer;
+    position: relative;
+    width: 100%;
+    box-shadow: 10px 10px 5px 0 rgba(10, 10, 10, 0.6);
+}
+
+.member_container .img_overlay{
+    border-radius: 0.5em;
+    display: block;
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    transition: .5s ease;
+    background-color: #8b0000;
+    font-size: 1.5em;
+    justify-content: center;
+
+}
+.img_overlay h4{
+    font-size: 0.7    em;
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-decoration: none;
+    font-weight: normal;
+    color: rgb(226, 230, 232);
+    text-align: center;
+}
+
+@media only screen and (min-width: 500px) {
+    .img_overlay h4{
+        font-size: 1em;
+    }
+}
+
+.member_container .img_overlay:hover{
+    opacity: 0.8;
+}
+
+#meet_ur_team{
+  font-size: 2em;
+  box-shadow: 8px 8px 10px 5px rgba(32, 32, 32, 0.4);
+}

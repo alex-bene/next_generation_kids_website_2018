@@ -1,0 +1,138 @@
+#about_us{
+    padding-bottom: 2em;
+    margin-bottom: auto;
+}
+
+#problem h2, #solution h2{
+    color: rgb(255, 255, 255);
+    align-self: center;
+    text-shadow: 4px 4px 4px rgba(0, 0, 0, 1);
+}
+#problem, #solution{
+    padding-bottom: 1em;
+}
+.gen_grid{
+	display: block;
+}
+
+@media only screen and (min-width: 800px) {
+	.gen_grid{
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		grid-column-gap: 2em;
+	}
+}
+@media only screen and (min-width: 1001px) {
+	.gen_grid{
+		grid-template-columns: 2fr 1fr;
+	}
+}
+@media only screen and (min-width: 1291px) {
+	.gen_grid{
+		grid-template-columns: 3fr 1fr;
+	}
+}
+@media only screen and (min-width: 1920px) {
+	.gen_grid{
+		grid-template-columns: 5fr 1fr;
+	}
+}
+
+#problem .image, #solution .image{
+	border-radius: 0.5em;
+	margin-top: auto;
+	margin-bottom: auto;
+	max-width: 100%;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+#identity{
+    padding-bottom: 2em;
+}
+#identity p{
+    margin-left: auto;
+    margin-right: auto;
+    width: 80vw;
+}
+
+@media only screen and (min-width: 890px) {
+	#identity p{
+		width: 60vw;
+	}
+    #problem .content, #solution .content{
+        padding: 0 2em;
+    }
+}
+
+#the_problem{
+	margin: 0 1em 2em 1em;
+}
+@media only screen and (min-width: 470px) {
+	#the_problem{
+		margin: 0 3em 2em 3em;
+	}
+}
+@media only screen and (min-width: 660px) {
+	#the_problem{
+		margin: 0 6em 2em 6em;
+	}
+}
+@media only screen and (min-width: 1100px) {
+	#the_problem{
+		margin: 0 9em 2em 9em;
+	}
+}
+@media only screen and (min-width: 1550px) {
+	#the_problem{
+		margin: 0 18em 2em 18em;
+	}
+}
+
+#team_solution .grid{
+    grid-template-columns: 1fr;
+    grid-column-gap: 2em;
+    grid-row-gap: 2em;
+}
+
+@media only screen and (min-width: 1040px) {
+    #team_solution .grid{
+        grid-template-columns: 2fr 1fr;
+    }
+}
+
+.team_members .linked_images_area{
+    grid-template-columns: 1fr;
+    grid-gap: 2em;
+}
+
+
+@media only screen and (min-width: 500px) {
+    .team_members .linked_images_area{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media only screen and (min-width: 820px) {
+    .team_members .linked_images_area{
+        grid-template-columns: repeat(auto-fit, 23em);
+    }
+}
+
+.link_button_site{
+    transition: 0.5s;
+    cursor: pointer;
+    margin-top: 0.5em;
+    text-align: center;
+    display: inline-block;
+    color: rgba(60, 60, 60, 0.88);
+    padding: 0.5em;
+    border: 1px solid rgb(112, 15, 15);
+    border-radius: 1em;
+}
+
+.link_button_site:hover{
+    background-color: rgb(112, 15, 15);
+    color: #fff;
+}

@@ -1,0 +1,43 @@
+.grid{
+    display: grid;
+}
+
+.column_span{
+    grid-column-start: 1;
+    grid-column-end: -1;
+}
+
+.flex_column{
+    display: flex;
+    flex-direction: column;
+}
+.flex_row{
+    display: flex;
+    flex-direction: row;
+}
+
+#headline_menu{
+    grid-area: headline_menu;
+}
+#pages_banner{
+    grid-area: pages_banner;
+}
+#prime_sponsors{
+    grid-area: prime_sponsors;
+}
+#teams{
+  grid-area: teams;
+}
+footer{
+    grid-area: footer;
+}
+
+body{
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+        "headline_menu headline_menu"
+        "pages_banner pages_banner"
+        "teams teams"
+        "prime_sponsors prime_sponsors"
+        "footer footer";
+}
